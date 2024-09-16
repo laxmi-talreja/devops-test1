@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/hdfc-jenkin",
+        "create path (nt:unstructured) /content/dam/hdfc-jenkin/jcr:content",
+        "set properties on /content/dam/hdfc-jenkin/jcr:content\n  set cq:conf{String} to /conf/hdfc-jenkin\n  set jcr:title{String} to \"HDFC Life jenkin Project\"\nend"
+    ]
+}
